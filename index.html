@@ -191,6 +191,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .track .desc{font-size:13.5px;margin-top:8px}
 .track .tags{margin:10px 0 0}
 .track .people li{font-size:13px}
+.track .hl,.track .trio{margin-top:10px}.track .facts-row{margin-top:12px}.track .poster-btn{margin-top:12px}.track .quote{font-size:15px;line-height:1.7;margin-top:10px}
 .sub{margin-top:12px;padding-top:12px;border-top:1px dashed var(--line-soft)}
 .sub p{margin:0;font-size:13.5px;color:var(--text)}
 .sub p.desc{margin-top:6px;color:#c6c5cc;font-size:13px}
@@ -328,11 +329,14 @@ html[lang=en] #day2 .day-head .en,html[lang=en] .dov .e{display:none}
   <div class="g-row">
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/gold-poster.jpg" data-alt="走进新加坡 Le Freeport 自由港 海报"><img src="img/gold-poster.jpg" alt="走进新加坡 Le Freeport 自由港" loading="lazy"></button><figcaption><b>NOV 23 · 15:00</b><span>Le Freeport 黄金金库</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/yacht-poster.jpg" data-alt="向海而行，自有天地 海报"><img src="img/yacht-poster.jpg" alt="向海而行，自有天地" loading="lazy"></button><figcaption><b>NOV 23 · 15:00</b><span>圣淘沙游艇私享会</span></figcaption></figure>
+    <figure class="g-fig"><button class="g-item" type="button" data-poster="img/guandan-poster.jpg" data-alt="掼蛋会友，智趣同局 海报"><img src="img/guandan-poster.jpg" alt="掼蛋会友，智趣同局" loading="lazy"></button><figcaption><b>NOV 23 · 15:00</b><span>掼蛋 Club</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/dinner-poster.jpg" data-alt="深蓝之境，家族之约 海报"><img src="img/dinner-poster.jpg" alt="深蓝之境，家族之约" loading="lazy"></button><figcaption><b>NOV 23 · 18:00</b><span>家办会员欢迎家宴</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/supercar-poster.jpg" data-alt="把热爱，开进风景里 海报"><img src="img/supercar-poster.jpg" alt="把热爱，开进风景里" loading="lazy"></button><figcaption><b>NOV 24 · 17:30</b><span>超跑环游圣淘沙</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/comedy-poster.jpg" data-alt="坡有意思：欢迎登上快乐方舟 海报"><img src="img/comedy-poster.jpg" alt="坡有意思：欢迎登上快乐方舟" loading="lazy"></button><figcaption><b>NOV 24 · 20:00</b><span>NOAH Comedy Night</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/golf-poster.jpg" data-alt="挥杆圣淘沙 海报"><img src="img/golf-poster.jpg" alt="挥杆圣淘沙" loading="lazy"></button><figcaption><b>NOV 25 · MORNING</b><span>挥杆圣淘沙</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/nus-poster.jpg" data-alt="走进新国大 海报"><img src="img/nus-poster.jpg" alt="走进新国大 商业无界，求知不止" loading="lazy"></button><figcaption><b>NOV 25 · 10:00</b><span>走进新国大 EMBA</span></figcaption></figure>
+    <figure class="g-fig"><button class="g-item" type="button" data-poster="img/wellington-poster.jpg" data-alt="走进 Wellington 海报"><img src="img/wellington-poster.jpg" alt="走进 Wellington" loading="lazy"></button><figcaption><b>NOV 25 · 10:00</b><span>走进 Wellington</span></figcaption></figure>
+    <figure class="g-fig"><button class="g-item" type="button" data-poster="img/ge-poster.jpg" data-alt="走进新加坡大东方 海报"><img src="img/ge-poster.jpg" alt="走进新加坡大东方" loading="lazy"></button><figcaption><b>NOV 25 · 10:00</b><span>走进新加坡大东方</span></figcaption></figure>
     <figure class="g-fig"><button class="g-item" type="button" data-poster="img/jewel-poster.jpg" data-alt="朱青映万象 海报"><img src="img/jewel-poster.jpg" alt="朱青映万象" loading="lazy"></button><figcaption><b>NOV 25 · 13:30</b><span>朱青映万象 彩宝沙龙</span></figcaption></figure>
   </div>
 </section>
@@ -451,6 +455,10 @@ html[lang=en] #day2 .day-head .en,html[lang=en] .dov .e{display:none}
         <article class="track">
           <span class="lab">Workshop C</span>
           <h4>掼蛋 Club</h4>
+          <p class="kicker">掼蛋会友，智趣同局</p>
+          <p class="desc">一场以牌会友、轻松对弈的同侪交流。在一局局默契配合中，以牌会友、以趣联谊，在轻松的氛围里，结识志同道合的同行者。</p>
+          <div class="facts-row"><div><b>15:00 – 17:00</b><span>SGT</span></div><div><b>Noah Clubhouse</b><span>Singapore</span></div></div>
+          <button class="poster-btn" type="button" data-poster="img/guandan-poster.jpg" data-alt="掼蛋会友，智趣同局 海报">查看海报</button>
         </article>
       </div>
     </div>
@@ -800,21 +808,37 @@ html[lang=en] #day2 .day-head .en,html[lang=en] .dov .e{display:none}
           <span class="lab">走进头部管理人 GP</span>
           <h4>走进 EQT<span class="lgs"><img class="lg" src="img/logos/eqt.svg" alt="EQT" loading="lazy"></span></h4>
           <div class="tags"><span class="tag seat">限 30 席</span></div>
+          <p class="kicker">探访全球领先私募平台的投资方法论</p>
           <p class="desc">EQT创立于1994年，总部位于斯德哥尔摩，是全球领先的私募市场投资机构，专注私募股权与基础设施。</p>
-          <p class="desc">走进国际资产管理机构在新加坡的业务场景，与专业人士交流亚洲市场研究、投资流程与风险管理实践，理解全球管理人如何连接区域资本与长期投资机会。</p>
+          <p class="desc">走进全球知名私募投资机构 EQT，近距离了解其投资理念、资产配置逻辑与长期价值创造。在交流中洞察全球市场趋势，把握私募投资的未来机遇。</p>
+          <div class="hl"><span>全球视野</span><span>私募洞察</span><span>长期价值</span></div>
+          <div class="facts-row"><div><b>10:00 – 12:00</b><span>SGT</span></div><div><b>EQT Singapore</b><span>Singapore</span></div></div>
         </article>
         <article class="track">
           <span class="lab">走进头部管理人 GP</span>
           <h4>走进 Wellington<span class="lgs"><img class="lg lg-t" src="img/logos/wellington.svg" alt="Wellington" loading="lazy"></span></h4>
           <div class="tags"><span class="tag seat">限 30 席</span></div>
+          <p class="kicker">走近全球主动投资的长期主义</p>
           <p class="desc">威灵顿Wellington创立于1928年，总部位于波士顿，是全球历史最悠久的独立私营资管机构之一。</p>
-          <p class="desc">走进国际资产管理机构在新加坡的业务场景，与专业人士交流亚洲市场研究、投资流程与风险管理实践，理解全球管理人如何连接区域资本与长期投资机会。</p>
+          <p class="desc">走进威灵顿投资管理，了解其研究驱动的投资理念、多元资产布局与长期价值创造。</p>
+          <div class="hl"><span>全球研究</span><span>主动投资</span><span>长期视角</span></div>
+          <div class="facts-row"><div><b>10:00 – 12:00</b><span>SGT</span></div><div><b>Wellington Management</b><span>Singapore</span></div></div>
+          <button class="poster-btn" type="button" data-poster="img/wellington-poster.jpg" data-alt="走进 Wellington 海报">查看海报</button>
         </article>
         <article class="track">
           <span class="lab">保险机构参访</span>
           <h4>走进新加坡大东方<span class="lgs"><img class="lg lg-t" src="img/logos/ge.svg" alt="Great Eastern" loading="lazy"></span></h4>
           <div class="tags"><span class="tag seat">限 20 席</span></div>
-          <p class="desc">百年基业，守护家族跨越周期的财富力量</p>
+          <p class="kicker">百年基业，守护家族跨越周期的财富力量</p>
+          <p class="quote">有些承诺，需要用一百年的时间来印证。</p>
+          <p class="desc">走进新加坡历史最悠久的国民保司——大东方人寿（Great Eastern），探寻百年险企基业长青的底层逻辑。从顶层架构设计到多元化资产配置，近距离了解国际化保险工具如何在动荡的市场环境中，为高净值家族筑起财富安全的护城河。</p>
+          <ul class="trio">
+            <li><b>探访百年名企</b>走进大东方新加坡总部，感受亚洲老牌险企的稳健经营与历史沉淀</li>
+            <li><b>解码传承架构</b>深度解析大额保单与信托等工具如何协同，实现家族资产的无缝传承</li>
+            <li><b>对话财富专家</b>与资深规划专家面对面，探讨家族跨代流动性与风险隔离的定制策略</li>
+          </ul>
+          <div class="facts-row"><div><b>10:00 – 12:00</b><span>SGT</span></div><div><b>Great Eastern</b><span>Singapore</span></div></div>
+          <button class="poster-btn" type="button" data-poster="img/ge-poster.jpg" data-alt="走进新加坡大东方 海报">查看海报</button>
         </article>
       </div>
     </div>
@@ -913,7 +937,7 @@ html[lang=en] #day2 .day-head .en,html[lang=en] .dov .e{display:none}
   Object.assign(EN,{"全球家庭与美好生活": "Global Families, Good Lives", "财富之外，如何安顿一个家？": "Beyond wealth — how do you make a home?", "当家庭跨越国界，开启全球化生活，真正的安定不仅来自财富与身份的规划，更源于内心的从容与家庭的联结。": "When a family crosses borders to build a global life, true stability comes not only from planning wealth and residency, but from inner calm and the bonds that hold a family together.", "从跨文化适应、子女成长到夫妻关系与情绪管理，本场分享将从专业心理学视角，探讨全球化家庭如何应对迁移与成长中的心理挑战，建立内在安全感与家庭韧性，让家人在世界任何地方，都能找到安心与归属。": "From cross-cultural adjustment and children’s growth to marriage and emotional wellbeing, this session takes a clinical-psychology lens to the psychological challenges of relocation and growing up abroad — building inner security and family resilience, so that loved ones can find peace and belonging anywhere in the world.", "特别支持机构：IHH医疗集团 · 百汇珊顿 IHH Healthcare Parkway Shenton": "With special support from IHH Healthcare · Parkway Shenton", "资深心理学专家 · 临床心理学博士，拥有逾十年国际临床经验，专注心理健康与家庭关系": "Senior Psychologist · Doctor of Clinical Psychology with more than ten years of international clinical experience, specialising in mental health and family relationships"});
   Object.assign(EN,{"Olive SG 投资董事": "Investment Director, Olive SG"});
   Object.assign(EN,{"波动中，如何找到那束光——AI 时代ARK Skills投资新范式": "Finding the Light Amid Volatility — A New Investing Paradigm with ARK Skills in the AI Era", "利率高、市场波动时，先守住本金，再把握机会。指数机构、公募基金管理人与诺亚证券团队将依次分享：资产如何按规则被筛选、固收底仓如何搭建、交易纪律如何坚守。": "When rates are high and markets volatile, protect capital first, then seize opportunity. An index provider, a mutual-fund manager and Noah’s securities team will share in turn how assets are screened by rules, how a fixed-income core is built, and how trading discipline is kept.", "ARK Skills如何将NOAH 20年的经验变为您的投研能力：资产如何按规则被筛选、固收底仓如何搭建、交易纪律如何坚守，并现场演示如何借助 AI 工具查资料、做比较、盯市场。": "See how ARK Skills turns NOAH’s 20 years of experience into your own research capability — rule-based asset screening, building a fixed-income core, holding to trading discipline — with a live demo of using AI tools to research, compare and monitor markets.", "标普 北亚太区负责人": "Head of North Asia-Pacific, S&P", "万亿头部公募管理人": "A leading mutual-fund manager with over RMB 1 trillion in AUM", "iARK 证券业务负责人": "Head of Securities Business, iARK", "iARK 国际线上财管副总经理": "Deputy General Manager, International Online Wealth Management, iARK"});
-  Object.assign(EN,{"掼蛋 Club": "Guandan Club"});
+  Object.assign(EN,{"掼蛋 Club": "Guandan Club", "探访全球领先私募平台的投资方法论": "Inside the investment approach of a leading global private markets firm", "走进全球知名私募投资机构 EQT，近距离了解其投资理念、资产配置逻辑与长期价值创造。在交流中洞察全球市场趋势，把握私募投资的未来机遇。": "Step inside EQT, one of the world's best-known private markets investors, for a close look at its investment philosophy, allocation logic and long-term value creation, and at where global markets and private investing are heading next.", "私募洞察": "Private Markets Insight", "长期价值": "Long-term Value", "走近全球主动投资的长期主义": "The long view of global active investing", "走进威灵顿投资管理，了解其研究驱动的投资理念、多元资产布局与长期价值创造。": "Visit Wellington Management to learn about its research-driven investment philosophy, multi-asset capabilities and long-term value creation.", "全球研究": "Global Research", "主动投资": "Active Investing", "长期视角": "Long-term View", "有些承诺，需要用一百年的时间来印证。": "Some promises take a hundred years to prove.", "走进新加坡历史最悠久的国民保司——大东方人寿（Great Eastern），探寻百年险企基业长青的底层逻辑。从顶层架构设计到多元化资产配置，近距离了解国际化保险工具如何在动荡的市场环境中，为高净值家族筑起财富安全的护城河。": "Visit Great Eastern, Singapore's longest-established insurer, to understand what has sustained it for over a century. From top-level structuring to diversified asset allocation, see how international insurance solutions help build a protective moat around family wealth in volatile markets.", "探访百年名企": "A Century-old Institution", "走进大东方新加坡总部，感受亚洲老牌险企的稳健经营与历史沉淀": "Visit Great Eastern's Singapore headquarters and its long record of prudent stewardship", "解码传承架构": "Succession Structures", "深度解析大额保单与信托等工具如何协同，实现家族资产的无缝传承": "How large policies and trusts work together for seamless transfer of family assets", "对话财富专家": "Meet the Specialists", "与资深规划专家面对面，探讨家族跨代流动性与风险隔离的定制策略": "Discuss tailored strategies for multi-generational liquidity and risk ring-fencing", "走进 EQT 海报": "Visit EQT poster", "走进 Wellington 海报": "Visit Wellington poster", "走进新加坡大东方 海报": "Visit Great Eastern poster", "掼蛋会友，智趣同局": "Guandan: Cards, Wit & Good Company", "一场以牌会友、轻松对弈的同侪交流。在一局局默契配合中，以牌会友、以趣联谊，在轻松的氛围里，结识志同道合的同行者。": "A relaxed afternoon of Guandan among peers. Partner up hand by hand, enjoy the play, and get to know like-minded fellow members along the way.", "掼蛋会友，智趣同局 海报": "Guandan Club poster"});
   Object.assign(EN,{"Workshop A · 全球篇": "Workshop A · Global"});
   Object.assign(EN,{"HealthSpan 精准医疗——从健康管理到长寿管理": "HealthSpan Precision Medicine — From Health Management to Longevity Management", "以科学预见健康，以管理有质量的生命": "Foresee health through science; manage for a life of quality"});
   Object.assign(EN,{"当家庭持有的产品逐渐增多，如何判断整体风险、安排流动性，并持续完成组合调整？本场由全委与投资团队共同交流，从投资目标、风险承受能力和资金使用计划出发，介绍全权委托如何建立投资约定、构建组合、持续检视并执行调整，同时回应存量资产承接、管理权限、费用及服务流程等实际问题。": "As a family’s holdings multiply, how do you gauge overall risk, plan for liquidity and keep the portfolio on course? In this joint session, our discretionary-mandate and investment teams start from investment goals, risk tolerance and cash-flow needs to show how a discretionary mandate sets an investment agreement, builds the portfolio, reviews it continuously and executes adjustments — and answer practical questions on transferring existing assets, management authority, fees and service processes."});
