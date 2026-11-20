@@ -512,6 +512,13 @@ main .guests{padding-block:clamp(28px,4vw,44px) 4px}
             <button class="poster-btn" type="button" data-poster="img/guandan-poster.jpg" data-alt="掼蛋会友，智趣同局 海报">查看海报</button>
           </div>
         </article>
+        <article class="track">
+          <span class="lab">Workshop D</span>
+          <h4>ARK Skills 平台发布——证券投资 Skills 实战工作坊</h4>
+          <p class="desc">花旗调查显示，62% 的准亿万富翁每天都在使用 AI。黄仁勋事件会怎么影响 AI 产业链？中期选举会改变市场风向吗？下一个十倍股在哪？带着这些问题，现场用 ARK Skills 跑一遍。</p>
+          <div class="tags"><span class="tag seat">限 15 席</span></div>
+          <ul class="people"><li><b>Gary 王刚</b><span>国际线上财管 副总经理</span></li><li><b>Devy 王啸枫</b><span>国际线上财管BU CEO</span></li><li><b>神秘嘉宾</b><span>ARK Skills 作者</span></li></ul>
+        </article>
       </div>
     </div>
   </div>
@@ -713,7 +720,7 @@ main .guests{padding-block:clamp(28px,4vw,44px) 4px}
           <h4>波动中，如何找到那束光——AI 时代ARK Skills投资新范式</h4>
           <p class="desc">利率高、市场波动时，先守住本金，再把握机会。指数机构、公募基金管理人与诺亚证券团队将依次分享：资产如何按规则被筛选、固收底仓如何搭建、交易纪律如何坚守。</p>
           <p class="desc">ARK Skills如何将NOAH 20年的经验变为您的投研能力：资产如何按规则被筛选、固收底仓如何搭建、交易纪律如何坚守，并现场演示如何借助 AI 工具查资料、做比较、盯市场。</p>
-          <ul class="people"><li><b>Vincent</b><span>标普 北亚太区负责人</span><span class="tag tbc">拟邀</span></li><li><b>拟邀嘉宾</b><span>万亿头部公募管理人</span></li><li><b>席绚桦</b><span>iARK 证券业务负责人</span></li><li><b>王刚 Gary</b><span>iARK 国际线上财管副总经理</span></li></ul>
+          <ul class="people"><li><b>Vincent</b><span>标普 北亚太区负责人</span><span class="tag tbc">拟邀</span></li><li><b>拟邀嘉宾</b><span>万亿头部公募管理人</span></li><li><b>席绚桦</b><span>iARK 证券业务负责人</span></li><li><b>Gary 王刚</b><span>iARK 国际线上财管副总经理</span></li></ul>
         </article>
       </div>
     </div>
@@ -938,6 +945,21 @@ main .guests{padding-block:clamp(28px,4vw,44px) 4px}
       </article>
     </div>
   </div>
+
+  <div class="slot">
+    <div class="time">15:00–17:00<small>平行工作坊</small></div>
+    <div class="slot-body">
+      <div class="tracks">
+        <article class="track">
+          <span class="lab">Workshop</span>
+          <h4>ARK Skills 平台发布——证券投资 Skills 实战工作坊</h4>
+          <p class="desc">花旗调查显示，62% 的准亿万富翁每天都在使用 AI。黄仁勋事件会怎么影响 AI 产业链？中期选举会改变市场风向吗？下一个十倍股在哪？带着这些问题，现场用 ARK Skills 跑一遍。</p>
+          <div class="tags"><span class="tag seat">限 15 席</span></div>
+          <ul class="people"><li><b>Gary 王刚</b><span>国际线上财管 副总经理</span></li><li><b>Devy 王啸枫</b><span>国际线上财管BU CEO</span></li><li><b>神秘嘉宾</b><span>ARK Skills 作者</span></li></ul>
+        </article>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section class="partners" id="partners" aria-labelledby="pw-h">
@@ -1001,7 +1023,7 @@ main .guests{padding-block:clamp(28px,4vw,44px) 4px}
   var feat=document.getElementById('gw-feat'), grid=document.getElementById('gw-grid');
   if(!feat||!grid) return;
   var FEATURED=['陈庆珠教授 Prof. Chan Heng Chee','成汉通','李国权教授','原力','殷哲 Zander Yin'];
-  var SKIP=/特邀嘉宾|拟邀|团队|管理层|专家| · |领域/;
+  var SKIP=/特邀嘉宾|神秘嘉宾|拟邀|团队|管理层|专家| · |领域/;
   var seen={}, list=[];
   [].forEach.call(document.querySelectorAll('.day .people li'),function(li){
     var b=li.querySelector('b'); if(!b) return;
@@ -1053,6 +1075,8 @@ main .guests{padding-block:clamp(28px,4vw,44px) 4px}
   Object.assign(EN,{"希腊律师": "Lawyer, Greece", "希腊开发商代表": "Representative, Greek Developer", "土耳其律师": "Lawyer, Türkiye", "土耳其开发商代表": "Representative, Turkish Developer"});
   Object.assign(EN,{"全球家庭与美好生活": "Global Families, Good Lives", "财富之外，如何安顿一个家？": "Beyond wealth — how do you make a home?", "当家庭跨越国界，开启全球化生活，真正的安定不仅来自财富与身份的规划，更源于内心的从容与家庭的联结。": "When a family crosses borders to build a global life, true stability comes not only from planning wealth and residency, but from inner calm and the bonds that hold a family together.", "从跨文化适应、子女成长到夫妻关系与情绪管理，本场分享将从专业心理学视角，探讨全球化家庭如何应对迁移与成长中的心理挑战，建立内在安全感与家庭韧性，让家人在世界任何地方，都能找到安心与归属。": "From cross-cultural adjustment and children’s growth to marriage and emotional wellbeing, this session takes a clinical-psychology lens to the psychological challenges of relocation and growing up abroad — building inner security and family resilience, so that loved ones can find peace and belonging anywhere in the world.", "特别支持机构：IHH医疗集团 · 百汇珊顿 IHH Healthcare Parkway Shenton": "With special support from IHH Healthcare · Parkway Shenton", "资深心理学专家 · 临床心理学博士，拥有逾十年国际临床经验，专注心理健康与家庭关系": "Senior Psychologist · Doctor of Clinical Psychology with more than ten years of international clinical experience, specialising in mental health and family relationships"});
   Object.assign(EN,{"Olive SG 投资董事": "Investment Director, Olive SG"});
+  Object.assign(EN,{"神秘嘉宾": "Mystery Guest", "ARK Skills 作者": "Creator of ARK Skills"});
+  Object.assign(EN,{"ARK Skills 平台发布——证券投资 Skills 实战工作坊": "ARK Skills Launch: Hands-On Securities Investing Workshop", "花旗调查显示，62% 的准亿万富翁每天都在使用 AI。黄仁勋事件会怎么影响 AI 产业链？中期选举会改变市场风向吗？下一个十倍股在哪？带着这些问题，现场用 ARK Skills 跑一遍。": "A Citi survey found that 62% of aspiring billionaires use AI every day. How will the Jensen Huang story affect the AI supply chain? Will the midterm elections shift the market? Where is the next ten-bagger? Bring these questions and run them through ARK Skills live.", "限 15 席": "15 places", "Gary 王刚": "Gary Wang", "Devy 王啸枫": "Devy Wang", "国际线上财管 副总经理": "Deputy General Manager, International Online Wealth Management", "国际线上财管BU CEO": "CEO, International Online Wealth Management BU"});
   Object.assign(EN,{"重新认识日本——经济转折与产业变革中的投资机遇": "Rediscovering Japan: Investment Opportunities Amid Economic Turning Points and Industrial Transformation", "日本走出长期通缩，意味着怎样的投资机会？日元走势、企业治理改革与 AI 产业发展，又将如何影响日本市场？本场从日本经济与资本市场的变化出发，解读日本企业在半导体设备、材料等领域的竞争优势，并结合当地管理人的投资策略，探讨参与日本市场的路径与需要关注的风险。": "What investment opportunities arise as Japan exits prolonged deflation? How will the yen, corporate-governance reform and the AI industry shape its market? Starting from shifts in Japan’s economy and capital markets, this session examines Japanese companies’ competitive edge in semiconductor equipment and materials, draws on local managers’ strategies, and discusses ways to access the market and the risks to watch.", "Olive Japan 副总经理": "Deputy General Manager, Olive Japan", "陈欢": "Huan Chen"});
   Object.assign(EN,{"Seligman 东南亚机构业务经理": "Assistant Vice President, Institutional, Southeast Asia, Seligman", "Seligman 亚太区分销业务经理": "Assistant Vice President, Wholesale Asia, Seligman"});
   Object.assign(EN,{"嘉宾阵容": "Speakers", "11月24日嘉宾": "Speakers · Nov 24", "点击嘉宾查看对应议程": "Tap a speaker to see their session", "合作伙伴": "Partners", "嘉宾": "Speakers"});
